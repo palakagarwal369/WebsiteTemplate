@@ -1,0 +1,123 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+/*-----------------
+navbar
+-------------------*/
+.bgnav{
+    background: transparent;
+    transition: 0.2s ease;
+}
+.bgnav.scrolled{
+    background: rgba(0, 53, 70);
+}
+.navbar .navbar-brand{
+    font-weight: normal;
+    font-size: 22px;
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link{
+    font-weight: normal;
+    font-size: 15px;
+    padding: 0;
+    color: white;
+    margin-left: 12px;
+}
+.navbar .navbar-nav .nav-link:hover{
+    background: transparent;
+    color: #ffffff;
+}
+.navbar .navbar-nav .nav-link::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: transparent;
+    transition: width 0.3s ease, background-color 0.3s ease;
+}
+.navbar .navbar-nav .nav-link:hover::after{
+    width: 100%;
+    background: #ffffff;
+    color: #ffffff;
+}
+/*---------------
+home
+----------------*/
+.home{
+    background-image:
+    linear-gradient(rgba(0, 53, 70, 0.93), rgba(0, 53, 70, 0.93)), url("https://media.istockphoto.com/photos/were-always-hungry-for-success-picture-id1330547182?b=1&k=20&m=1330547182&s=170667a&w=0&h=r363z4sXEp6Yg6E2YD_JUZQhtTgq-38-9oxfm5tQGug=");
+    position: relative;  
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    color: white;
+    border-radius: 0% 0% 50% 50% / 0% 0% 20% 20%;
+    height: 100vh;
+}
+
+.home-info{
+    height: 400px;
+    width: 350px;
+    background: lightblue;
+    color: black;
+}
+/*-----------------
+.avatar{
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+*/
+
+/*-----------------
+work
+-----------------*/
+.work{
+    background: rgb(219, 246, 255);
+}
+
+/*-----------------
+tech
+-----------------*/
+
+.tech{
+    background-image:
+    linear-gradient(rgba(0, 53, 70, 0.93), rgba(0, 53, 70, 0.93)), url("https://media.istockphoto.com/photos/were-always-hungry-for-success-picture-id1330547182?b=1&k=20&m=1330547182&s=170667a&w=0&h=r363z4sXEp6Yg6E2YD_JUZQhtTgq-38-9oxfm5tQGug=");
+    position: relative;  
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    color: white;
+}
+
+/*-----------------
+contact us
+-----------------*/
+.contactus{
+    background-image:
+    linear-gradient(rgb(219, 246, 255, 0.9),rgb(219, 246, 255, 0.9)), url("https://previews.123rf.com/images/milkos/milkos1710/milkos171003856/88760640-business-people-teamwork-busy-team-row-on-couch-against-white-brick-wall-background-partners-working.jpg");
+    position: relative;  
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    color: white;
+}
+/*---------------------------
+footer
+---------------------------*/
+
+.page-footer{
+    background-color: grey;
+  }
+
+/*---------------------------
+
+---------------------------*/
+h4{
+    font-weight: bold;
+}
